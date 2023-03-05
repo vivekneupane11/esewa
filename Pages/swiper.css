@@ -1,0 +1,27 @@
+.swiper-button-next:after,.swiper-button-prev:after{
+    font-size: 16px;
+    padding: 10px 20px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    z-index: 5;
+    background-color: rgba(244, 236, 236, 0.8);
+    color:"#60bb46";
+}
+.swiper-pagination-bullets {
+    display: none;
+}
+
+ @media screen and (min-width: 576px) {
+  .swiper-container {
+    width: 576px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}

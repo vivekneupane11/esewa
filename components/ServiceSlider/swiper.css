@@ -1,0 +1,38 @@
+.swiper-container {
+    width: 480px;
+  }
+.swiper{
+  margin-left: 0px;
+
+}
+
+.swiper-wrapper{
+    padding-left: 12px;
+}
+.swiper-pagination-bullets {
+    display: none;
+}
+
+.swiper-button-prev {
+  color: #60bb46;
+  scale: 0.6; 
+}
+
+.swiper-button-next {
+  color: #60bb46; 
+  scale: 0.6; 
+
+}
+  .swiper-slide{
+    max-width: 200px !important;
+  }
+
+  @media screen and (min-width: 768px) {
+    .swiper-container {
+      width: 768px;
+    }
+  }
+  @media screen and (min-width: 640px) {
+    .swiper-container {
+      width: 640px;
+    }}
